@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "iframe-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/iframe/IframeWebPart.js",
+          "manifest": "./src/webparts/iframe/IframeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "IframeWebPartStrings": "lib/webparts/iframe/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
