@@ -1,6 +1,4 @@
-## sample
 
-This is where you include your WebPart documentation.
 
 ### Building the code
 
